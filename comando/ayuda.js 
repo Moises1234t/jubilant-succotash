@@ -1,1 +1,15 @@
+module.exports = {
+    nombre: 'ayuda',
+    ejecutar: (msg) => {
+        msg.reply(
+`🤖 *Comandos de CATRINA BOT MD OFICIAL*:
+#ayuda — Muestra esta ayuda
+#adivina [número] — Juega a adivinar el número secreto
+#ppt [piedra|papel|tijera] — Juega piedra, papel o tijera
+#dado — Lanza un dado
+#beso @usuario — Da un beso virtual
+¡Y más próximamente!`
+        );
+    }
+};
  
