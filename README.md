@@ -51,3 +51,13 @@ module.exports = {
         msg.reply(`🎲 El dado cayó en: ${resultado}`);
     }
 };
+module.exports = {
+    nombre: 'beso',
+    ejecutar: (msg) => {
+        if (!msg.mentionedIds || msg.mentionedIds.length === 0) {
+            msg.reply('Menciona a quién quieres darle un beso. Ejemplo: #beso @usuario');
+            return;
+        }
+        msg.reply(`💋 ${msg.author} le da un beso a ${msg.mentionedIds.join(', ')}!`);
+    }
+};
