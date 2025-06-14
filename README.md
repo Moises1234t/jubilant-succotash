@@ -44,3 +44,10 @@ module.exports = {
         msg.reply(`Tú: ${eleccionUsuario}\nBot: ${eleccionBot}\n${resultado}`);
     }
 };
+module.exports = {
+    nombre: 'dado',
+    ejecutar: (msg) => {
+        const resultado = Math.floor(Math.random() * 6) + 1;
+        msg.reply(`🎲 El dado cayó en: ${resultado}`);
+    }
+};
