@@ -1,1 +1,11 @@
-c
+ccatrina-bot/
+├── src/
+│   ├── comandos/
+│   │   ├── adivina.js
+│   │   ├── ppt.js
+│   │   ├── dado.js
+│   │   ├── beso.js
+│   │   └── ayuda.js
+│   └── bot.js
+├── package.json
+└── README.md
